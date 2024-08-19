@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Booking Form</title>
+    <link rel="stylesheet" href="Project1.css">
+</head>
+<body>
+    <div class="container">
+        <!--The header of the Website is given here:-->
+        <header >
+            <h1>
+                Tourisim Pakistan
+            </h1>
+        </header>
+        <!--The Navigation Bar:-->
+        <nav>
+            <ul>
+                <li>
+                    <a href="ProjectHome.html" >Home</a>
+                </li>
+                <li>
+                    <a href="Punjab.html" >Punjab</a>
+                </li>
+                <li>
+                    <a href="KPK.html" >KPK</a>
+                </li>
+                <li>
+                    <a href="GB.html" >GB</a>
+                </li>
+                <li>
+                    <a href="Kashmir.html" >Kashmir</a> 
+                </li>
+                <li>
+                    <a href="BookingForm.html">Contact For Booking</a>
+                </li>
+            </ul>
+        </nav>
+        <h2>Book a Tour</h2>
+        <p>
+            Please Fill Out The Form With The Required Info:
+        </p>
+        <!--Main Section of the page is given here:-->
+        <main>
+            <form action="">
+                <fieldset>
+                    <label for="first-name">Enter Your First Name:<input type="text" name="first-name" id="first-name" required></label>
+                    <label for="last-name">Enter Your Last Name <input type="text" name="last-name" id="last-name" required></label>
+                    <label for="email">Enter Your Email Address <input type="email" name="email" id="email" required></label>
+
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        Select Your Gender
+                    </legend>
+                    <label for="male">Male <input type="radio" name="male" id="male" class="inline" checked></label>
+                    <label for="female">Female <input type="radio" name="female" class="inline" id="female"></label>
+                </fieldset>
+                <fieldset>
+                    <label for="picture">Upload Your Picture <input type="file" name="file" id="picture"></label>
+                    <label for="age">Input Your Age: <input type="number" name="age" id="age" min="18" max="60" ></label>
+                    <label for="Departure_City">Please Select Your Departure City: <select name="Departure_City" id="Departure_City">
+                        <option value="">--SELECT DEPARTURE CITY--</option>
+                        <option value="LHR">Lahore</option>
+                        <option value="ISL">Islamabad</option>
+                        <option value="SGD">Sargodha</option>
+                        <option value="GRW">Gujaranwala</option>
+                        <option value="SKT">Sialkot</option>
+                        <option value="JLM">Jehlum</option>
+                        <option value="MLT">Multan</option>
+                        <option value="BHP">Bahawalpur</option>
+                        <option value="OKR">Okara</option>
+                        <option value="JHG">Jhung</option>
+                    </select></label>
+                    <label for="Arrival_City">Please Select The Destination: <select name="Arrival_City" id="Arrival_City">
+                        <option value="" disabled>--For Punjab Province--</option>
+                        <option value="BM">Badshahi Mosque</option>
+                        <option value="KhM">Khewra Salt Mine</option>
+                        <option value="MRE">Murree</option>
+                        <option value="HRP">Harapa</option>
+                        <option value=""></option>
+                        <option value="" disabled>--For KPK Province--</option>
+                        <option value="SWT">Swaat Velly</option>
+                        <option value="MJ">Malam Jabba</option>
+                        <option value="KV">Kumrat Velly</option>
+                        <option value="SFL">Lake Saif UL Malook</option>
+                        <option value=""></option>
+                        <option value="" disabled>--For Kashmir--</option>
+                        <option value="MZ">Muzaffarabad</option>
+                        <option value="MP">Mirpur</option>
+                        <option value="RWK">Rawalakot</option>
+                        <option value="KEL">Kel</option>
+                        <option value=""></option>
+                        <option value="" disabled>--For GB Province--</option>
+                        <option value="HZA">Hunza</option>
+                        <option value="SKR">Skardu</option>
+                        <option value="GIT">Gilgit</option>
+                        <option value="DSI">Deosai</option>
+                    </select></label>
+                    <label for="bio">Provide a bio:
+                        <textarea name="bio" id="bio" rows="3" cols="30" placeholder="I like coding on the beach...."></textarea>
+                    </label>
+                </fieldset>
+                <label for="terms-and-conditions">
+                    <input type="checkbox" name="terms-and-conditions" id="terms-and-conditions" required>I accept the <a href="">terms and conditions</a>
+                </label>
+                <input type="submit" name="" id="" value="submit">
+            </form>
+
+        </main>
+        <!--It is the Footter of Website-->
+        <footer>
+            <p>&copy
+                Tourisim Pakistan all rights reserved
+            </p>
+        </footer>
+    </div>
+</body>
+</html>

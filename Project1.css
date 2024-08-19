@@ -1,0 +1,200 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+   /* background-color: bisque;*/
+    color: #7cbd1e;
+
+    background-color: #bceb3c;
+
+    background-image: url(backgroundImage.jpg) ;
+    
+    background-size: 100%;
+}
+
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+img:hover{
+    width: 300px;
+    height: 400px;
+}
+
+img{
+    border-radius: 30px;
+    transition: all 1.5s ease;
+}
+
+header{
+    background-image: url(PakistanFlag.jpg);
+    background-size: 100%;
+    color: hsl(0, 0%, 100%);
+    padding: 1rem;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    border-radius: 25px 25px 0 0;
+    
+}
+
+h2{
+    font-size: 35px;
+    font-family: red serifs;
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: double underline;
+}
+h3{
+    font-size: 30px;
+    text-decoration: dashed underline;
+}
+h4{
+    font-size: 35px;
+    color: rgb(114, 221, 114);
+    text-shadow: 2px 2px 1px rgb(186, 231, 179);
+    text-decoration: underline;
+}
+p{
+    justify-content: center;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+
+nav{
+    font-size: 35px;
+    
+    background-color: white;
+    list-style-type: none;
+    padding: 0 auto;
+    /* position: fixed; */
+    border-radius: 0 0 25px 25px;
+    border: 2px solid black;
+    
+
+}
+
+/* li:hover{
+    width: 50px;
+    height: 45px;
+    font-size: 65px;
+} */
+
+
+nav, ul ,li{
+    display: inline;
+    margin-right: 40px; 
+    font-size: 20px;
+    
+    
+}
+
+/*  */
+
+nav,ul{
+    text-align: center;
+    width: 90%;
+    height: 10%;
+    
+}
+nav,ul,li,a{
+    color: #7cbd1e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1.5s ease-in-out;
+}
+
+
+
+main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+
+section{
+    flex-basis: 49%;
+    margin-left: 20px;
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+footer{
+
+    background-color: hsl(130,100%,55%);
+    color: hsl(130,100%,25%);
+    text-align: center;
+    padding: 1rem;
+    flex-basis: 45%;
+}
+form{
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+
+}
+fieldset{
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 2px solid green;
+}
+fieldset:last-of-type{
+    border-bottom: none;
+}
+label{
+    color: green;
+    display: block;
+    margin: 0.5rem 0;
+    font-size: 20px;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px white;
+}
+input{
+    display: block;
+}
+input,textarea,select{
+    margin: 10px 0 0 0 ;
+    width: 100%;
+    min-height: 2rem;
+
+}
+input,textarea{
+    background-color: lightgreen;
+    border: 2px solid black;
+    color: white;
+}
+.inline{
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+.inline{
+    display: inline;
+}
+input[type="submit"]{
+    display: block;
+    width: 60%;
+    min-width: 300px;
+    height: 2em;
+    margin: 1em auto;
+    font-size: 1.1rem;
+    background-color: white;
+    
+}
+input[type="file"]{
+    padding: 1px 2px;
+
+}

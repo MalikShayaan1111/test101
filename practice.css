@@ -1,0 +1,18 @@
+body{
+    background-color: aquamarine;
+}
+
+label{
+    
+    width:40%;
+    display: block;
+    text-align: right;
+    float: left;
+    
+    
+}
+input{
+    
+    display: block;
+   
+}
